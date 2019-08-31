@@ -14,3 +14,9 @@ class Blog(models.Model):
         return self.body[:100]
 
 #댓글기능 구현
+class Comment(models.Model):
+    blog = models.ForeignKey(Blog, on_delete=models.CASCADE, related_name="comments")
+    content = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.content
