@@ -1,7 +1,7 @@
 # prography_5th_django
 # 프로그라피_5기_과제
 # 강현욱
-https://pure-fjord-57360.herokuapp.com
+https://hyeonukcrud.herokuapp.com/
 
 - crud 구현
 - classForm 댓글 구현
