@@ -4,6 +4,7 @@
 https://pure-fjord-57360.herokuapp.com
 
 - crud 구현
+- classForm 댓글 구현
 - disque 댓글 구현
 - heroku 업로드
 - templates 상속
